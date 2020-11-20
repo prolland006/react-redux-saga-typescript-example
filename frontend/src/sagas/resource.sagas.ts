@@ -1,6 +1,6 @@
 import { call, put, takeEvery, all, take } from 'redux-saga/effects';
 import { natureResourcesDestroyer } from '../api';
-import { destroyNatureResourcesAction, numberRequestCompletedAction } from '../actions';
+import { destroyNatureResourcesAction } from '../actions';
 import { actionIds, BaseAction } from '../common';
 
 export function* watchRemoveResource() {
